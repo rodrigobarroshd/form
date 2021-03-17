@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #202124;
+}
+
+@font-face {
+    src: url('../fonts/Fluted\ Germanica.ttf');
+    font-family: "Germania";
+}
+.clear{
+    clear: both;
+}
+
+.center {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    min-width: 1200px;
+    width: 100%;
+    height: 100px;
+    background-color: #202124;
+}
+
+.header img {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+
+.container-banner {
+    width: 100%;
+    height: 757px;
+    background-image: url('../imgs/backgroundphoenix.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 1200px;
+}
+
+.container-banner>.center {
+    height: 100%;
+}
+
+.form {
+    width: 500px;
+    height: 780px;
+    display: inline-block;
+    background-color: #202124;
+    float: right;
+    border: 4px;
+    border-color: white;
+    border-style: solid;
+    margin-top: 30px;
+    position: relative;
+    top: -40px;
+    border-radius: 45px;
+}
+
+.form h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Germania One', cursive;
+    margin-top: 18px;
+}
+
+.input-container {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.input-container span {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-container input[type=text] {
+    width: 460px;
+    height: 55px;
+}
+
+.input-container input[type=email] {
+    width: 460px;
+    height: 55px;
+}
+
+.input-container input[type=tel] {
+    width: 460px;
+    height: 55px;
+}
+
+.form input[type=submit] {
+    font-size: 45px;
+    color: aliceblue;
+    background-color: #202124;
+    border: solid white;
+    text-align: center;
+    width: 360px;
+    height: 76px;
+    display: inline-block;
+    font-family: 'Germania One', cursive;
+    cursor: pointer; 
+    border-radius: 45px;
+    
+}
+
+.form .input-submit-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.input-container p {
+    color: aliceblue;
+}
+
+.form input[type=submit]:hover {
+    background-color: #303136;
+}
+.form img{
+    width: 250px;
+    margin: 20px 20px 20px 20px;
+
+}
+.container-list{
+    float: left;
+    width: 669px;
+    height: 570px;
+    background-color: rgba(24, 25, 44, 0.7);
+    margin-top: 90px;
+}
+.container-list ul{
+    
+    list-style-position: inside;
+    list-style-type: square;
+
+}
+.container-list ul li{
+    color: white;
+    margin-top: 18px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Germania One', cursive;
+    margin-right: 30px;
+}
+.container-2{
+    padding: 60px 0;
+    background-color:#303136;
+    text-align: center;
+    min-width: 1200px;
+
+   
+}
+.container-2 h2{
+    font-weight: normal;
+    color: aliceblue;
+}
+.container-2 p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    margin: 15px 0;
+    color: aliceblue;
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+    top: 80px;
+    left: 50%;
+    margin-left: -20px;
+    background-image: url('../imgs/arrow.png');   
+    position: relative;
+    background-size: 100% 100%;
+    
+    
+}
+.section-1{
+    padding: 50px 0;
+}
+.section-1 h2{
+    text-align: center;
+    color: aliceblue;
+    font-weight: normal;
+    margin-top: 20px;
+
+}
+.section-1 p{
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+.container-section{
+    margin-top: 40px;
+}
+.container-section{
+    text-align: center;
+}
+.container-single{
+    float: left;
+    padding: 60px;
+    width: 33.333%;
+    text-align: center; /* imagem icone */
+}
+.container-single img{
+    width: 70px;
+    margin-top: 50px;
+}
+.container-single p{
+    padding: 10px 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+.section2 h2{
+    border-style: solid;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-width: 2px;
+    border-radius: 35px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Germanica';
+    height: 40px;
+}
+.footer{
+    border-top: 4px solid whitesmoke;
+    padding: 30px 0;
+    margin-top: 40px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 16px;
+
+}
+.footer p{
+    margin-top: 8px;
+}
+
