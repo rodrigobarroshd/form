@@ -7,11 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <link rel="icon" href="imgs/fenix.png">
-    <meta http-equiv="refresh" content="2; url=index.html">
+    <meta http-equiv="refresh" content="200; url=index.html">
     <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <div class="header">
         <div class="center">
             <img src="imgs/fenix.png" />
@@ -56,16 +57,74 @@
                     <!--input-container-->
                     <div class="input-container">
                         <span>Telefone *</span>
-                        <input type="tel" name="tel" required />
+                        <input type="number" name="tel" pattern="[0-9]+$" placeholder="(99)99999-9999" required />
 
 
                     </div>
                     <!--input-container-->
+                    <div class="input-container">
+                        <span>CPF *</span>
+                        <input type="text" name="text" required />
+                    </div>
+                    <!--input-container-->
+                    <div class="input-container">
+                        <span>Formação</span>
+                        <input type="text" name="text-formacao" required />
+
+                    </div>
+                    <!--input-container-->
+                    <div class="input-container">
+                        <span>Endereço</span>
+                        <input type="text" name="text" required />
+                    </div>
+                    <!--input-container-->
+                    <div class="input-container">
+                        <span>Estado/Cidade</span>
+                        <select name="select">
+                            <option value="valor1">Bahia</option>
+                            
+                        </select>
+                        <select name="select">
+                            <option value="valor1">Salvador</option>
+	                        <option value="valor1">Feira de Santana</option>
+                            <option value="valor1">Santo Amaro</option>
+                            <option value="valor1">Vitória da Conquista</option>
+                            <option value="valor1">Camaçari</option>
+                            <option value="valor1">Juazeiro</option>
+                            <option value="valor1">Itabuna</option>
+                            
+                        </select>
+                
+                    
+                    </div>
+                    <!--input-container-->
+                    
+
+                    <div class="input-container">
+                        <span>Data Nasc &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sexo</span>               
+                        <input type="date" class="data1" id="dia" name="dia">
+                        <select name="select">
+                            <option value="valor1">Masculino</option>
+                            <option value="valor1">Feminino</option>
+                            <option value="valor1">Indefinido</option>
+                        </select>
+
+                    </div>
+                    <!--input-container-->
+                    <div class="input-container">
+                    </div>
+
+
+                    <div class="input-container">
+                        
+                    </div>
+                   
+
                     <p class="warning">* Campos Obrigatórios</p>
 
                     <div class="input-submit-container">
                         <input type="submit" name="acao" value="enviar" />
-                        <img src="imgs/fenix.png" />
+
                     </div>
                 </form>
             </div>
@@ -99,7 +158,7 @@
     </div>
     <!--container-2-->
     <div class="section-1">
-        <div class="section2" >
+        <div class="section2">
             <h2>Entre para o Time</h2>
         </div>
 
@@ -167,7 +226,6 @@
         </div>
         <!--container-section1-->
 
-
     </div>
     <!--section1-->
     <div class="clear"></div>
@@ -175,7 +233,8 @@
         <p>Todos os direitos reservados</p>
         <p>Av Paulino de Andrade, Polivalente</p>
 
-    </div><!--footer-->
+    </div>
+    <!--footer-->
 </body>
 
 
